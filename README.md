@@ -3,7 +3,7 @@
 ## Window server - Linux client tcp 소켓통신
 
 ### <실행 가이드>
-윈도우 서버(mac) : "실행파일이름 20000(포트넘버)"를 cmd창에 입력\n
+윈도우 서버(mac) : "실행파일이름 20000(포트넘버)"를 cmd창에 입력\
 리눅스 클라이언트(pi) : win_to_linux_client.c 의 실행파일(win2linux)을 실행\n
 
 ### <코드 설명>
