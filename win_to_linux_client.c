@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
     /* Fill the socket address struct */
     remote_addr.sin_family = AF_INET; 
     remote_addr.sin_port = htons(PORT); 
-    inet_pton(AF_INET, "192.168.0.66", &remote_addr.sin_addr);
+    inet_pton(AF_INET, "192.168.0.11", &remote_addr.sin_addr);
     bzero(&(remote_addr.sin_zero), 8);
  
     /* Try to connect the remote */
